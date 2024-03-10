@@ -1,0 +1,41 @@
+:root{
+    --backgrond:#291e40;
+    --color1: #2a8c8c;
+    --color2: #38a692;
+    --colorw: #ffffff;
+    --colorb: #000000;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--backgrond);
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container1{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    padding: 10px 0px;
+}
+
+header span{
+    font-size: 30px;
+    color: var(--color1);
+    font-weight: bolder;
+}
+
