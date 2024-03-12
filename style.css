@@ -24,6 +24,11 @@
     margin: auto;
 }
 
+.container5{
+    max-width: 500px;
+    margin: auto;
+}
+
 .center{
     margin: auto;
     text-align: center;
@@ -40,6 +45,33 @@ header span{
 }
 
 section{
-    padding: 10px 10px;
+    padding: 50px 10px;
 }
 
+section div.img{
+    background-image: url(img/2bc5c3577626860abd491992e4cbe690.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+section div.sobre{
+    padding: 20px 10px;
+}
+
+section div.sobre p{
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 2em;
+    color: var(--color1);
+    line-height: 26px;
+}
+
+section div.sobre span{
+    font-size: 30px;
+    color: var(--colorw);
+    font-weight: bolder;
+}
