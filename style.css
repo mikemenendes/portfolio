@@ -4,7 +4,8 @@
     --color2: #38a692;
     --colorw: #ffffff;
     --colorb: #000000;
-
+    --font1: "Josefin Sans", sans-serif; 
+    --font2: "Berkshire Swash", serif;
 }
 
 *{
@@ -32,6 +33,10 @@
 .center{
     margin: auto;
     text-align: center;
+}
+
+.space{
+    padding: 10px 10px;
 }
 
 header{
@@ -62,18 +67,19 @@ section div.sobre{
     padding: 20px 10px;
 }
 
+section div.sobre h2{
+    font-size: 30px;
+    color: var(--color2);
+    font-family: var(--font2);
+}
+
 section div.sobre p{
     text-align: justify;
     font-size: 18px;
+    font-family: var(--font1);
     text-indent: 2em;
-    color: var(--color1);
-    line-height: 26px;
-}
-
-section div.sobre span{
-    font-size: 30px;
     color: var(--colorw);
-    font-weight: bolder;
+    line-height: 26px;
 }
 
 footer div span{
